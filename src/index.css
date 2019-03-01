@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.main {
+	display: inline-block;
+	width: 100%;
+	background-color: white;
+	height: 100vh;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login {
+	background-color: rgb(243, 106, 152);
+	height: 100vh;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_filter{
+	background-color: rgba(0,0,0,0.2);
+	height: 100vh;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login_container{
+	display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+	padding-top: 25vh;
+    width: 40%;
+    min-width: 20rem;
+}
+
+
+.logo {
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-size: 3rem;
+	font-family: 'Baloo Tammudu', sans-serif!important;
+}
+
+#sub_logo{
+	margin-top: -2rem;
+	color: white;
+	font-size: 1rem;
+}
+
+.submit_card{
+	margin: 2rem 0 1rem 0;
+	border-radius: 20px!important;
+	width:15rem;
+
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.emailinput{
+	padding: 1rem 0;
+	border: 0;
+	outline: none;
+}
+
+.validationText{
+	font-size: 0.8rem;
+    padding: 1rem 0;
+    margin: 0;
+}
+.submit_form{
+	margin-bottom: 1rem;
+}
+
+
+.submit_btn{
+	width:15rem;
+	padding: 12px 30px!important;
+	font-family: 'Montserrat', sans-serif!important;
+	border-radius: 30px!important;
+	color: rgb(255, 255, 255)!important;
+    background-color: #028E9B!important;
+    box-shadow: rgba(233, 30, 99, 0.14) 0px 2px 2px 0px, rgba(233, 30, 99, 0.2) 0px 3px 1px -2px, rgba(233, 30, 99, 0.12) 0px 1px 5px 0px!important;
+    border-color: rgb(233, 30, 99)!important;
+	margin: 0.2rem 0.2rem!important;
+    min-width: 12rem!important;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1) 0s, background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s, -webkit-box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1) 0s!important;
+}
+
+.submit_btn:hover {
+	background-color: #1E6D74!important;	
+}
+
+.result_comp_header{
+	fontFamily: Baloo Tammudu!important;
+   color: black;
+    font-size: 24px;
+    display: block;
+    margin: 1rem 0 0 0;
+    font-weight: bold;
+}
+
+.rate_comp_header{
+	fontFamily: Baloo Tammudu!important;
+   color: black;
+   font-size: 24px;
+   display: block;
+   margin: 1rem 0 0 0;
+   font-weight: bold;
+   margin-top: 80px;
+}
+
+/* fontFamily: "'Baloo Tammudu'!important",
+    color: "black",
+    fontSize: "1.2rem",
+    display: "block",
+    margin: "1rem 0 0 0" */
